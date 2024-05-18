@@ -89,6 +89,13 @@
 			rel="stylesheet"
 		/>
 		<style>
+			.sticky-header {
+				position: -webkit-sticky; /* For Safari */
+				position: sticky;
+				top: 0;
+				z-index: 1000; /* Ensure it stays on top */
+			}
+
 			.header-style-4 .top-bar .wt-topbar-info li:first-child {
 				position: relative;
 				z-index: 1;
@@ -1840,6 +1847,22 @@
 
 		<!-- REVOLUTION SLIDER SCRIPT FILES -->
 		<script src="js/rev-script-8.js"></script>
+		<script>
+			window.onscroll = function () {
+				myFunction();
+			};
+
+			var header = document.getElementById("myHeader");
+			var sticky = header.offsetTop;
+
+			function myFunction() {
+				if (window.pageYOffset > sticky) {
+					header.classList.add("sticky");
+				} else {
+					header.classList.remove("sticky");
+				}
+			}
+		</script>
 
 		<!-- STYLE SWITCHER  ======= -->
 		<div class="styleswitcher">
