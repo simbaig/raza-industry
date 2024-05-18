@@ -89,7 +89,12 @@
 			rel="stylesheet"
 		/>
 		<style>
-			.header-style-4 .top-bar .wt-topbar-info li:first-child:before {
+			.header-style-4 .top-bar .wt-topbar-info li:first-child {
+				position: relative;
+				z-index: 1;
+			}
+
+			.header-style-4 .top-bar .wt-topbar-info li:first-child::after {
 				content: "";
 				position: absolute;
 				right: 0px;
