@@ -23040,3 +23040,20 @@ ol.commentlist li .star-rating {
 	cursor: pointer;
 	z-index: 2;
 }
+
+@media only screen and (max-width: 768px) {
+	#mobile-side-drawer {
+		min-height: 60px;
+	}
+
+	.header-style-4 .header-2-nav {
+		padding-top: 23px;
+	}
+	.header-style-4 .navbar-toggler .icon-bar {
+		background: #000;
+	}
+	.header-style-4 .social-icons {
+		display: block;
+		margin-left: 28px;
+	}
+}
