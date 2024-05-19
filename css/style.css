@@ -23043,7 +23043,7 @@ ol.commentlist li .star-rating {
 
 @media only screen and (max-width: 768px) {
 	.header-style-4 .header-2-nav {
-		padding-top: 23px;
+		padding-top: 18px;
 	}
 	.header-style-4 .navbar-toggler .icon-bar {
 		background: #000;
@@ -23053,7 +23053,7 @@ ol.commentlist li .star-rating {
 		margin-left: 5px;
 	}
 	.navbar-toggler {
-		margin-top: 25px;
+		margin-top: 20px;
 		margin-bottom: 10px;
 	}
 }
