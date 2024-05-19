@@ -23042,9 +23042,9 @@ ol.commentlist li .star-rating {
 }
 
 @media only screen and (max-width: 768px) {
-	.header-style-4 .header-2-nav {
+	/* .header-style-4 .header-2-nav {
 		padding-top: 18px;
-	}
+	} */
 	.header-style-4 .navbar-toggler .icon-bar {
 		background: #000;
 	}
