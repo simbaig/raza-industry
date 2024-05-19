@@ -23026,3 +23026,8 @@ ol.commentlist li .star-rating {
 .post-style-12:hover .wt-post-info:before {
 	bottom: -8px;
 }
+@media screen and (min-width: 767px) {
+	.widget_services {
+		margin-left: 70px;
+	}
+}
