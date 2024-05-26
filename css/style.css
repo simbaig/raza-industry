@@ -22933,6 +22933,7 @@ ol.commentlist li .star-rating {
 	padding-bottom: 30px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 @media only screen and (max-width: 640px) {
 	.testimonial-12-content .testimonial-12 .testimonial-detail {
