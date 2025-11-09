@@ -1350,7 +1350,7 @@ All JavaScript fuctions Start
 			// > page scroll top on button click function by = custom.js
 			scroll_top(),
 			// > input type file function by = custom.js
-			input_type_file_form(),
+			// input_type_file_form(),
 			// > input Placeholder in IE9 function by = custom.js
 			placeholderSupport(),
 			// > footer fixed on bottom function by = custom.js
